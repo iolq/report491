@@ -51,6 +51,46 @@
 2สัปดาห์ต่อมา แพรวได้รับความยุติธรรมว่าในคลิปนั้นไม่ใช่เธอ และทางโรงเรียนก็เอาผิดเพื่อนคนนั้นที่ปล่อยข่าวลือโดยการพักการเรียน 1 เทอมการศึกษา ทำให้แพรวได้กลับมาใช้ชีวิตในรั้วโรงเรียนได้อีกครั้ง แต่เธอก็ยังยืนยันว่าจะลาออกจากโรงเรียนที่นี่แล้วย้ายบ้านออกไปอยู่กับพ่อ เนื่องจากเธอได้แจ้งตำรวจไปเมื่อวันที่เธอจะทำการฆ่าตัวตาย ว่าแม่ของเธอมีการใช้กำลังเกิดขึ้น ทำให้เรื่องไปถึงพ่อ พ่อจึงฟ้องหย่ากับภรรยา และขอสิทธิ์เลี้ยงดูลูกทำให้เธอต้องย้ายไปต่างจังหวัดเพื่ออยู่กับพ่อ อย่างไรก็ตามเธอมาโรงเรียนวันสุดท้ายเพื่อเก็บของ และเห็นว่ามีดอกไม้วางอยู่บนโต๊ะ พร้อมข้อความให้กำลังใจเธอเต็มไปหมด เช่น ขอให้เธอปลอดภัย แต่ถัดไปโต๊ะอีกตัว ซึ่งเป็นโต๊ะของเรา ไม่มีแม้แต่เศษกระดาษมาวางไว้ ทั้ง ๆ ที่เราได้ตายไปแล้ว แพรวจึงวางดอกไม้สีขาวไว้บนโต๊ะเรา เพื่อเป็นการไว้อาลัย ก่อนที่เธอจะเดินออกจากห้องไปเพื่อเริ่มต้นชีวิตใหม่
 
 
+\subsection{Assets ที่นำมาใช้ในการพัฒนาเกม}
+\subsubitem \textbf{Japanese School - Stylized} \cite{japanese-school:asset} ใช้ในการสร้างฉากโรงเรียน โดยนำส่วนประกอบต่างๆ มาประกอบร่างกัน
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth, height=0.15\textheight]{Images/c7836435-cb4d-4b89-9620-466dbdd5a403_orig.png}
+  \caption{Japanese School - Stylized จากเว็บไซต์}\label{JapaneseSchool}
+\end{figure}
+
+
+\subsubitem \textbf{All Anime Girls Bundle} \cite{All-Anime-Girls-Bundle:asset} ใช้เป็นตัวละครหลัก และตัวละครประกอปนักเรียนหญิง รวมไปถึงใช้เป็นศัตรู
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth, height=0.15\textheight]{Images/All Anime Girls Bundle.png}
+  \caption{All Anime Girls Bundle จากเว็บไซต์}\label{All Anime Girls Bundle}
+\end{figure}
+
+
+\subsubitem \textbf{School Uniforms - Anime Boy Characters} \cite{School-Uniforms-Anime-Boy-Characters:asset} ใช้เป็นตัวละครประกอปนักเรียนชาย
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth, height=0.15\textheight]{Images/School Uniforms - Anime Boy Characters.png}
+  \caption{School Uniforms - Anime Boy Characters จากเว็บไซต์} \label{School Uniforms - Anime Boy Characters}
+\end{figure} 
+
+
+\subsubitem \textbf{Office - Anime Boy Characters} \cite{Office-Anime-Boy-Characters:asset} ใช้เป็นตัวละครประกอบหมอ และครูประจำชั้น
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth, height=0.15\textheight]{Images/Office - Anime Boy Characters.png}
+  \caption{Office - Anime Boy Characters จากเว็บไซต์} \label{Office - Anime Boy Characters}
+\end{figure}
+
+
+\subsubitem \textbf{Casual 1 - Anime Girl Characters} \cite{anime-girl:asset} ใช้เป็น Main Character ในรุ่นทดลอง
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth, height=0.15\textheight]{Images/7c8d1857-1f28-440d-a966-2c09fe1db214_orig.png}
+  \caption{Casual 1 - Anime Girl Characters จากเว็บไซต์}\label{AnimeGirl}
+\end{figure}
+
 \section{\ifenglish Story line\else องค์ประกอบภายในเกม\fi }
 \subsection{\ifenglish Story line\else ตัวละคร\fi }
 ในที่นี้ จะแบ่งเป็นตัวละครหลักและตัวละครเสริม
@@ -96,47 +136,64 @@
 
 \newpage
 \subsection{\ifenglish Story line\else การควบคุมตัวละคร\fi }
+การควบคุมตัวละครภายในเกมนั้น เป็นไปดังตารางที่แสดงด้านล่างนี้
 \begin{center}
-    \begin{tabular}{|c|c|}
+    \begin{tabular}{|c|p{10cm}|}
     \hline
     กดปุ่ม A, D & ใช้ในการเคลื่อนที่ของตัวละครให้เคลื่อนที่ไปทางซ้าย ทางขวา ตามลำดับ\\
+    \hline
     กดปุ่ม W, S ที่บันได& ใช้ในการขึ้นไปข้างบน หรือ ลงข้างล่าง\\
+    \hline
     กดปุ่ม E ที่วัตถุเช่น ประตูหรือกล่อง& ใช้ในการทำการ interaction เปิดประตูหรือเก็บของ\\
+    \hline
     กดปุ่ม E ที่ตู้ล็อคเกอร์หรือห้องน้ำ& เพื่อทำการซ่อนตัวจากศัตรู\\
+    \hline
     ขณะซ่อนตัว กดปุ่ม Q& เพื่อยกเลิกการซ่อนตัว\\
+    \hline
     กดปุ่ม E ค้างที่ กล่องหรือโต๊ะเรียน & ใช้ในการเก็บ/ค้นหา items จากกล่องหรือโต๊ะเรียน\\
+    \hline
     กดปุ่ม I & ใช้ในการเปิด inventory ขึ้นมา\\
+    \hline
     กดปุ่ม Esc& ใช้ในการออกจาก game\\
+    \hline
     หน้า inventory กดที่ item& เพื่อเปิดดูข้อมูลของ items นั้นๆ\\
+    \hline
     หน้า inventory กดปุ่ม use& เพื่อทำการใช้ items นั้นๆ\\
+    \hline
     หน้า inventory กดปุ่ม drop& เพื่อทิ้ง items ที่ไม่ต้องการใช้งาน\\
+    \hline
     หน้า inventory กดปุ่ม กากบาท หรือ ปุ่ม Q& เพื่อปิดหน้า inventory\\
+    \hline
     กดปุ่มลูกศร& เพื่อใช้ในการกด Quick Time Event ที่จะมาในแบบลูกศร\\
     \hline
     \end{tabular}
 \end{center}
+
 \subsection{\ifenglish Story line\else ค่าพลัง\fi }
+ค่าพลังภายในเกมนั้น ถูกแบ่งออกเป็น 3 ส่วน ดังนี้
 \begin{itemize}
     \item \textbf{ค่าพลังชีวิต} เป็นค่าที่จะส่งผลต่อการมีชีวิตของตัวละคร เป็นค่าที่ผู้เล่นจะต้องประคองไม่ให้หมด จะนำไปสู่ Game over
     \item \textbf{ค่าพลังกาย} เป็นค่าที่จะใช้ในการกระทำต่างๆ ทั้ง วิ่งและกระโดด
     \item \textbf{ค่าสติ} เป็นค่าที่จะกำหนดขอบเขตการมองเห็นของผู้เล่น เมื่อมีน้อย มุมมองการมองเห็นจะลดลง
 \end{itemize}
 \subsection{\ifenglish Story line\else Puzzle\fi }
-ภายในเกมจะมี puzzle อยู่ 2 รูปแบบ
-\begin{itemize}
-    \item การใส่ตัวเลขให้ถูกต้องเพื่อชนะปริศนา
-    \begin{figure}[h]
-        \centering
-        \includegraphics[scale=0.5]{Images/Password Image.png}
-        \caption{รูปแสดง Puzzle แบบรหัสผ่าน}
-    \end{figure}
-    \item การกดตามปุ่มที่เกิดขึ้นที่หน้าจอให้ทันตามเวลาที่กำหนด
-    \begin{figure}[h]
-        \centering
-        \includegraphics[scale=0.15]{Images/tutorial_qte.png}
-        \caption{รูปแสดง Quick Time Event}
-    \end{figure}
-\end{itemize}
+Puzzle ภายในเกมจะมีอยู่ 2 ที่ ดังนี้
+การใส่ตัวเลขให้ถูกต้องเพื่อชนะปริศนา
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.5]{Images/Password Image.png}
+    \caption{รูปแสดง Puzzle แบบรหัสผ่าน}
+\end{figure}
+
+
+\subsection{Quick Time Events}
+การกดตามปุ่มที่เกิดขึ้นที่หน้าจอให้ทันตามเวลาที่กำหนด
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.15]{Images/tutorial_qte.png}
+    \caption{รูปแสดง Quick Time Event}
+\end{figure}
+
 \subsection{\ifenglish Story line\else Item\fi }
 \begin{center}
     \begin{tabular}{|c|c|}
@@ -148,8 +205,9 @@
     \hline
     \end{tabular}
 \end{center}
+
 \subsection{\ifenglish Story line\else ฉากจบ\fi }
-มีทั้งหมด 3 ฉากด้วยกัน
+ฉากจบภายในเกมนั้นมีทั้งหมด 3 แบบด้วยกัน ดังนี้
 \begin{itemize}
     \item \textbf{Good end} จะเกิดขึ้นก็ต่อเมื่อดำเนินเรื่องราวทุกอย่างตามเนื้อเรื่อง และ ขึ้นไปช่วยแพรวจากวิญญาณร้ายได้สำเร็จ กล่าวคือคนที่ตายไปจะมีแค่เราคนเดียว
     \item \textbf{Bad end} จะเกิดขึ้นก็ต่อเมื่อดำเนินเรื่องราวทุกอย่างตามเนื้อเรื่อง แต่ขึ้นไปช่วยแพรวไม่ทันเวลา ทำให้เธอได้กระโดดลงมาก่อน หรือไม่ยอมเรียกชื่อแพรวตอนที่เธอกำลังจะกระโดดลงไป หลังจากนั้น วิญญาณร้ายจะผลักเราตกลงจากตึกด้วยเช่นกัน
