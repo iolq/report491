@@ -94,7 +94,7 @@
 \section{\ifenglish Story line\else องค์ประกอบภายในเกม\fi }
 \subsection{\ifenglish Story line\else ตัวละคร\fi }
 ในที่นี้ จะแบ่งเป็นตัวละครหลักและตัวละครเสริม
-\subitem ตัวละครหลัก
+\subitem \textbf{ตัวละครหลัก}
 \begin{itemize}
     \item \textbf{ตัวเอก} เป็นนักเรียนหญิงชั้นมัธยมปลาย ผมสั้น มีลักษณะนิสัย เป็นคนเงียบๆ มีเพื่อนน้อย ไม่ค่อยมีมนุษย์ปฏิสัมพันธ์
     \begin{figure}[h]
@@ -117,7 +117,7 @@
 \end{itemize}
 
 
-\subitem ตัวละครเสริม
+\subitem \textbf{ตัวละครเสริม}
 \begin{itemize}
     \item \textbf{ครูประจำชั้น} เป็นผู้หญิงวัยผู้ใหญ่  ผมยาวประบ่า สวมชุดสุภาพ
     \item \textbf{พยาบาล} เป็นผู้หญิงวัยผู้ใหญ่ เก็บผมเรียบร้อย สวมเครื่องแบบพยาบาล
@@ -137,8 +137,9 @@
 \newpage
 \subsection{\ifenglish Story line\else การควบคุมตัวละคร\fi }
 การควบคุมตัวละครภายในเกมนั้น เป็นไปดังตารางที่แสดงด้านล่างนี้
-\begin{center}
-    \begin{tabular}{|c|p{10cm}|}
+\begin{table}[h]
+    \centering
+    \begin{tabular}[t]{|c|p{8cm}|}
     \hline
     กดปุ่ม A, D & ใช้ในการเคลื่อนที่ของตัวละครให้เคลื่อนที่ไปทางซ้าย ทางขวา ตามลำดับ\\
     \hline
@@ -167,7 +168,8 @@
     กดปุ่มลูกศร& เพื่อใช้ในการกด Quick Time Event ที่จะมาในแบบลูกศร\\
     \hline
     \end{tabular}
-\end{center}
+    \caption[ตารางแสดงการควบคุมภายในเกม]{ตารางแสดงการควบคุมภายในเกม}
+\end{table}
 
 \subsection{\ifenglish Story line\else ค่าพลัง\fi }
 ค่าพลังภายในเกมนั้น ถูกแบ่งออกเป็น 3 ส่วน ดังนี้
@@ -177,8 +179,11 @@
     \item \textbf{ค่าสติ} เป็นค่าที่จะกำหนดขอบเขตการมองเห็นของผู้เล่น เมื่อมีน้อย มุมมองการมองเห็นจะลดลง
 \end{itemize}
 \subsection{\ifenglish Story line\else Puzzle\fi }
-Puzzle ภายในเกมจะมีอยู่ 2 ที่ ดังนี้
-การใส่ตัวเลขให้ถูกต้องเพื่อชนะปริศนา
+Puzzle เป็นการใส่ตัวเลขให้ถูกต้องเพื่อชนะปริศนาหรือปลดล็อคบางอย่างที่สำคัญ ภายในเกมจะมีอยู่ 2 ที่ ดังนี้
+\begin{enumerate}
+    \item ฉากบ้านแพรวที่ประตู้เข้าบ้าน ก่อนที่จะเข้าบ้านของแพรวได้จำเป็นจะต้องใส่รหัสผ่านเพื่อที่จะปลดล็อค การที่จะได้รหัสผ่านมานั้นจำเป็นจะต้อง
+    \item ฉากโรงเรียนตอนกลางคืนที่ห้อง 
+\end{enumerate}
 \begin{figure}[h]
     \centering
     \includegraphics[scale=0.5]{Images/Password Image.png}
@@ -195,8 +200,9 @@ Puzzle ภายในเกมจะมีอยู่ 2 ที่ ดังน
 \end{figure}
 
 \subsection{\ifenglish Story line\else Item\fi }
-\begin{center}
-    \begin{tabular}{|c|c|}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|p{8cm}|}
         \hline
         อาหารกระป๋อง & เมื่อใช้งาน จะฟื้นฟูค่าพลังชีวิต 25 หน่วย \\
         น้ำดื่ม         & เมื่อใช้งาน จะฟื้นฟูค้าพลังชีวิต 10 หน่วย \\
@@ -204,7 +210,22 @@ Puzzle ภายในเกมจะมีอยู่ 2 ที่ ดังน
         ยาประหลาด   & เมื่อใช้งาน จะฟื้นฟูค่าสติ 75 หน่วย     \\
         \hline
     \end{tabular}
-\end{center}
+    \caption[ตารางแสดงข้อมูลของ item ใช้งาน]{ตารางแสดงข้อมูลของ item ใช้งาน}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|p{8cm}|}
+        \hline
+        กุญแจอาคารเรียน & ได้รับหลังจากที่พูดคุยกับยาม จะปรากฏให้เก็บได้ทางด้านหลังของยาม \\
+        \hline
+        กุญแจโรงเรียน & ได้รับหลังจากที่พูดคุยกับยาม จะปรากฏให้เก็บได้ทางด้านหลังของยาม \\
+        \hline
+        แฟ้มประวัติ & ได้รับหลังจากเข้าไปยังเคาน์เตอร์ที่โรงพยาบาล จะปรากฏอยู่บนเคาน์เตอร์\\
+        \hline
+    \end{tabular}
+    \caption[ตารางแสดงข้อมูลของ question item]{ตารางแสดงข้อมูลของ question item}
+\end{table}
 
 \subsection{\ifenglish Story line\else ฉากจบ\fi }
 ฉากจบภายในเกมนั้นมีทั้งหมด 3 แบบด้วยกัน ดังนี้
